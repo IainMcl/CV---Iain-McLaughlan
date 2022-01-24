@@ -1,77 +1,29 @@
-% A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
-
-% Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Specify the location of the included fonts
 \fontdir[fonts/]
-
-% Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-% \colorlet{awesome}{awesome-skyblue}
-% Uncomment if you would like to specify your own color
 \definecolor{awesome}{HTML}{3383FF}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-
-% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo{ps.png}
 \name{Iain}{McLaughlan}
 \position{\href{https://publichealthscotland.scot/}{Public Health Scotland}{\enskip\cdotp\enskip}
 \href{https://www.ph.ed.ac.uk/}{Physics Graduate}{\enskip\cdotp\enskip} \href{https://www.rya.org.uk/scotland/performance/development-team/Pages/hub.aspx}{RYA Scotland Laser Performance Team Head Coach}{\enskip\cdotp\enskip}
 \href{https://www.rya.org.uk/scotland/performance/class-academies/Pages/hub.aspx}{RYA Scotland Laser Academy Programme Head Coach}}
 \address{1 Lindsay Circus, Rosewell, EH24 9EN, UK}
-
 \mobile{(+44) 7954333906}
 \email{iain.mclaughlan@yahoo.com}
 \homepage{SailingExercises.co.uk}
 \github{IainMcl}
 \linkedin{IainMcl}
-% \gitlab{gitlab-id}
-% \stackoverflow{9505353}{iain-mcl} % Could maybe add this is i became more active.
-% \twitter{@SailingExercis1}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \extrainfo{extra informations}
-
-% \quote{``This is cv.tex"}
-
-
-%-------------------------------------------------------------------------------
 \begin{document}
-
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
-
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
   {Iain McLaughlan~~~·~~~Curriculum Vitae}
   {\thepage}
-
-\input{sailmon/summary.tex}
-\input{sailmon/skills.tex}
-\input{sailmon/experienceshort.tex}
-\input{sailmon/educationshort.tex}
-\input{sailmon/extracurricular}
+\input{short/summary.tex}
+\input{short/skills.tex}
+\input{short/experienceshort.tex}
+\input{short/educationshort.tex}
+\input{short/extracurricular}
 \end{document}
