@@ -1,6 +1,8 @@
 ![](images/cv_template1024_1.jpg)
 ![](images/cv_template1024_2.jpg)
 
+A pdf version of my cv can be found [here](./cv.pdf).
+
 ## New application
 
 1. Create a folder in `Applications` for the new company/application
