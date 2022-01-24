@@ -13,3 +13,9 @@ A pdf version of my cv can be found [here](./cv.pdf).
 ## Compilation
 
 `xelatex cv.tex`
+
+Note that all compilations should be made from the root folder so the program
+has access to the `.cls` files.
+
+When running there are sometimes some functions that are defined twice. Just
+hitting enter will allow the program to move on.
